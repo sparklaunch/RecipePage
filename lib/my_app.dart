@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import "package:recipe_page/nutrition.dart";
 
 import "ingredients.dart";
 import "instructions.dart";
@@ -94,6 +95,13 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               const Instructions(),
+              const Padding(
+                padding: EdgeInsets.symmetric(horizontal: 30.0),
+                child: Divider(
+                  thickness: 1.0,
+                ),
+              ),
+              const Nutrition(),
             ],
           ),
         ),
