@@ -1,18 +1,10 @@
-import "package:flutter/material.dart";
-
-import "my_app.dart";
-
-void main() {
-  runApp(const MyApp());
-}
+import 'package:flutter/material.dart';
 
 class PreparationItem extends StatelessWidget {
   final String title;
   final String description;
-
   const PreparationItem(
       {super.key, required this.title, required this.description});
-
   @override
   Widget build(BuildContext context) {
     return Padding(
